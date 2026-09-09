@@ -1,0 +1,9 @@
+test.py
+apitest.py
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.env
+
+
