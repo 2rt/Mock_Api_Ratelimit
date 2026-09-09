@@ -20,7 +20,7 @@ def generate_random_user():
         "id": number,
         "name": f"user_{number}",
     }
-MOCK_DATA = [generate_random_user() for i in range(1, 300)]
+MOCK_DATA = [generate_random_user() for i in range(1, 150)]
 def decode_cursor(cursor_str):
     #Decodes a base64 string to get the starting numeric offset.
     if not cursor_str:
