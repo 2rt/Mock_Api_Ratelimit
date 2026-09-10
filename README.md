@@ -15,6 +15,7 @@ A multithreaded scraper that pulls follower data through a local API server, usi
 
 - Python 3
 - `requests`
+- `Flask`
 - A local API server (`api.py`) running on port 5000, exposing:
   ```
   GET /v1/users/{userid}/followers?cursor={cursor}
